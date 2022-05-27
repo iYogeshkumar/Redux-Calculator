@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #container {
+            width: 15%;
+            margin: auto;
+            background-color: aquamarine;
+            height: 350px;
+            
+        }
+        #input{
+            text-align:center;
+        }
+        #counterValue{
+            
+            font-size: 40px;
+        }
+        button{
+            font-size:20px;
+            text-align:center;
+            
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+    <div id="counterValue"></div>
+    <button id="inc">Increment</button>
+    <button id="dec">Decrease</button>
+  
+    <div>
+        <h2>Calculator</h2>
+        <label>Enter the number
+            <input type="number" id="input" placeholder="Enter the number" /><br><br>
+          </label>
+          <div>
+            <button id="add">add</button>
+            <button id="sub">subtarct</button>
+            <button id="multi">multiply</button>
+            <button id="div">divide</button>
+           
+          </div>
+    </div>
+</div>
+    <script type="module" src="./index.js"></script>
+</body>
+</html>
